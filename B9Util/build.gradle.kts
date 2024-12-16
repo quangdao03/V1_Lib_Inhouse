@@ -49,3 +49,17 @@ dependencies {
     //store
     implementation ("com.android.installreferrer:installreferrer:2.2")
 }
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.lib.inhouse"
+            artifactId = "ads-b9-util"
+            version = "1.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
