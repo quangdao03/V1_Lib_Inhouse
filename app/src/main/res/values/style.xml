@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Native"></style>
+
+    <style name="Native.AdButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:background">@drawable/ads_native_custom_button</item>
+        <item name="android:radius">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Native.AdHeadline">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="Native.AdBody">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:alpha">0.5</item>
+
+    </style>
+
+    <style name="Native.AdIcon">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ads_bg_icon</item>
+        <item name="android:backgroundTint">#02343F</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">6dip</item>
+        <item name="android:paddingBottom">3dip</item>
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">15.0px</item>
+        <item name="android:minHeight">15.0px</item>
+        <item name="android:text">Ad</item>
+    </style>
+
+    <style name="CustomText_color_80FFFFFF_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#80FFFFFF</item>
+    </style>
+    <style name="CustomText_color_889E97_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#889E97</item>
+    </style>
+    <style name="BaseDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!--rounded image-->
+
+    <style name="NaControlTips">
+        <item name="android:background">@drawable/bg_nav_tips</item>
+    </style>
+
+    <style name="rounded_corner">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="rounded_corner_32">
+        <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="rounded_corner_24">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!--CustomText-->
+    <style name="CustomText_Black_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+
+    <style name="CustomText_Black_13">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+
+    <style name="CustomText_Black_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="CustomText_Black_20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!--CustomText-->
+
+    <style name="CustomText_White_6">
+        <item name="android:textSize">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_7">
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="CustomText_White_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_13">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_17">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_19">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_21">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_White_22">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomText_color_344054_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#344054</item>
+    </style>
+    <style name="CustomText_color_344054_24">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#344054</item>
+    </style>
+
+    <style name="CustomText_color_344054_26">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#344054</item>
+    </style>
+
+    <style name="CustomText_color_02343F_10">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_EB5757_60_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#EB5757</item>
+    </style>
+    <style name="CustomText_color_02343F_60_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#02343F_60</item>
+    </style>
+    <style name="CustomText_color_02343F_20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_22">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_24">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_28">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+
+    <style name="CustomText_color_02343F_34">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+
+    <style name="CustomText_color_02343F_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#9902343F</item>
+    </style>
+    <style name="CustomText_color_02343F_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_11">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+    <style name="CustomText_color_02343F_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#02343F</item>
+    </style>
+
+    <style name="CustomText_color_7C959A_10">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#7C959A</item>
+    </style>
+    <style name="CustomText_color_3B8562_13">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#3B8562</item>
+    </style>
+
+
+    <style name="CustomText_color_2E3338_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#2E3338</item>
+    </style>
+    <style name="CustomText_color_2E3338_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2E3338</item>
+    </style>
+    <style name="CustomText_color_2E3338_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#2E3338</item>
+    </style>
+    <style name="CustomText_color_2E3338_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2E3338</item>
+    </style>
+
+    <style name="CustomText_color_333333_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+    <style name="CustomText_color_262626_16">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="CustomText_color_66727E_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#66727E</item>
+    </style>
+
+    <style name="CustomText_color_EB5757_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#EB5757</item>
+    </style>
+
+    <style name="CustomText_color_9902343F_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#9902343F</item>
+    </style>
+
+
+    <style name="CustomText_color_101828_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#101828</item>
+    </style>
+    <style name="CustomText_color_475467">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#475467</item>
+    </style>
+    <style name="CustomText_color_004EEB">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#004EEB</item>
+    </style>
+    <style name="CustomText_color_F84F79_16">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F84F79</item>
+    </style>
+    <style name="CustomText_color_F84F79_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#F84F79</item>
+    </style>
+    <style name="CustomText_color_42609A_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#42609A</item>
+    </style>
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/bg_border_16_ratio_crop_unselected</item>
+    </style>
+
+
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomText_color_02343F_38">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <color name="color_EB575799">#EB575799</color>
+</resources>

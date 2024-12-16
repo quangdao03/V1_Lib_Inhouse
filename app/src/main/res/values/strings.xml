@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lib_Ads_Inhouse</string>
+    <string name="Grant_Permission">Grant Permission</string>
+    <string name="Please_grant_all_permissions">Please grant all permissions to access additional functionality.</string>
+    <string name="Go_to_setting">Go to setting</string>
+    <string name="feedback">Feedback</string>
+    <string name="choose_your_subject">Choose your subject</string>
+    <string name="your_subject">Your subject</string>
+    <string name="what_tip_you_like_to_give_us">What tip you like to give us?</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="send">Send</string>
+    <string name="please_send_us_some_feedback">Please send us some feedback</string>
+    <string name="gmail_is_not_available_on_this_device_feedback_needs_to_be_sent_via_gmail_application">send mail</string>
+    <string name="report">Report</string>
+    <string name="english">English</string>
+    <string name="language">Language</string>
+    <string name="page_0_text">Ask AI Chatbot\nAnything</string>
+    <string name="page_1_text">Personalization\nAssistant</string>
+    <string name="page_2_text">Custom\nAI Characters</string>
+    <string name="page_3_text">AI Chat History</string>
+    <string name="next">Next</string>
+</resources>

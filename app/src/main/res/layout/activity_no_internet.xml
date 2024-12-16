@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.common.no_internet.NoInternetActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image_no_internet"
+            android:src="@drawable/img_no_internet" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <com.kt.lib_ads_inhouse.a8_app_utils.customtext.CustomTextViewFont700_notosan
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/oooops"
+                style="@style/CustomText_color_02343F_24"/>
+
+            <com.kt.lib_ads_inhouse.a8_app_utils.customtext.CustomTextViewFont400_notosan
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                style="@style/CustomText_color_02343F_14"
+                android:text="@string/internet_connection_not_found_ncheck_the_connection"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <com.kt.lib_ads_inhouse.a8_app_utils.customtext.CustomTextViewFont700_notosan
+            android:id="@+id/tvRetry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="62dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_border_10"
+            android:backgroundTint="@color/color_02343F"
+            android:gravity="center"
+            android:paddingVertical="12dp"
+            android:text="@string/try_again"
+            style="@style/CustomText_White_16"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
