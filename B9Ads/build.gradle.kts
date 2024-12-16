@@ -50,16 +50,16 @@ dependencies {
 
 }
 
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.lib.inhouse"
-            artifactId = "ads-b9"
-            version = "1.0"
-
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-}
+//publishing {
+//    publications {
+//        register<MavenPublication>("release") {
+//            groupId = "com.lib.inhouse"
+//            artifactId = "ads-b9"
+//            version = "1.0"
+//
+//            afterEvaluate {
+//                from(components["release"])
+//            }
+//        }
+//    }
+//}
