@@ -187,7 +187,6 @@
     </style>
     <style name="CustomText_color_02343F_60_14">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#02343F_60</item>
     </style>
     <style name="CustomText_color_02343F_20">
         <item name="android:textSize">20sp</item>

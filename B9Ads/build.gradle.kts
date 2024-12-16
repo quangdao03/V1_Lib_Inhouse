@@ -55,7 +55,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.lib.inhouse"
             artifactId = "ads-b9"
-            version = "1.0"
+            version = "1.0.0"
 
             afterEvaluate {
                 from(components["release"])
