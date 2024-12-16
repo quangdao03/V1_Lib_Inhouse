@@ -2,6 +2,7 @@ plugins {
     id("com.android.library")
     //alias(libs.plugins.jetbrains.kotlin.android)
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -47,4 +48,18 @@ dependencies {
     implementation(project(":B9Util"))
     implementation ("androidx.lifecycle:lifecycle-process:2.8.5")
 
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.lib.inhouse"
+            artifactId = "ads-b9"
+            version = "1.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
