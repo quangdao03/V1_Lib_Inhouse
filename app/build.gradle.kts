@@ -99,7 +99,8 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
     //lib
-    implementation(project(":B9Ads"))
+//    implementation(project(":B9Ads"))
     implementation(project(":B9Util"))
+    implementation("com.github.quangdao03:V1_Lib_Inhouse:v1.0.0")
 
 }

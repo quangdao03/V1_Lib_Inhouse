@@ -21,6 +21,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
         maven("https://jitpack.io")
         maven ("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea")
         maven ("https://maven.google.com/")
@@ -32,4 +33,4 @@ dependencyResolutionManagement {
 rootProject.name = "Lib_Ads_Inhouse"
 include(":app")
 include(":B9Util")
-include(":B9Ads")
+//include(":B9Ads")
